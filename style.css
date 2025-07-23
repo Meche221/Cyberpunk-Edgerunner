@@ -1,0 +1,85 @@
+body{
+background-color: #0d0c1d;
+padding: 0;
+margin: 0;
+overflow-x: hidden;
+}
+*{
+  font-family: 'Orbitron'
+}
+#nav-bar{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid #fcee09;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px #fcee09, 0 0 20px #ff005c inset;
+}
+#nav-lucy{
+  background-color: transparent;
+  height: 100%;
+}
+#nav-bar a{
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#nav-bar a:hover{
+  text-decoration: underline;
+  color: #fcee09;
+}
+#nav-search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#search-bar{
+  text-align: center;
+  background-color: transparent;
+  text-decoration: none;
+  border: solid 2px #fcee09;
+  padding: 10px;
+  color: white;
+}
+#search-bar:focus {
+  outline: none;
+  border: solid 2px #fcee09;
+  box-shadow: 0 0 8px #fcee09;
+}
+#search-bar::placeholder{
+  color: #fcee09;
+  font-weight: bold;
+}
+#search-button{
+  background-color: transparent;
+  border: solid 2px #fcee09;
+  padding: 10px;
+  color: #fcee09;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#search-button:hover{
+   background-color: rgba(252, 238, 9, 0.1);
+      box-shadow:
+        0 8px 20px #fcee09,
+        0 0 10px #fcee09,
+        0 0 20px #ff005c ;
+}
+#search-icon{
+     width: 48px;
+   height: 40px;
+   margin-right: 10px;
+  background-color: #fcee09;
+  cursor: pointer;
+}
+#search-icon img{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
